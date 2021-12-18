@@ -1,0 +1,92 @@
+body{
+    background-color: #CCC;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(register.jpg)
+}
+.classname
+{
+    background-color: #fff;
+    width: 700px;
+    height: 900px;
+    border-radius:03px;
+    margin:0 auto;
+    border-bottom: 1px solid #CCC;
+    margin-top: 30px;
+}
+.paragraph
+{
+    background-color:#3498db;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 03px;
+    border-bottom-color: lightblue;
+    padding: 15px; 0px; 15px; 0px; 
+    margin-bottom: 50px;
+    
+}
+.inputname
+{
+    margin-right: 20px;
+    width: 230px;
+    height: 30px;
+    border: 1px solid #CCC;
+    margin-left: 30px;
+    padding-left: 05px;
+    border-left: 03px solid lightblue; 
+    margin-top: 25px;
+}
+label{
+    margin-left: 15px;
+    font-family: monospace;
+    padding-left: 10px; 
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.list
+{
+    font-style:normal;
+    font-family: monospace;
+    display: inline-flex;
+    background-color: lemonchiffon;
+    margin: 10px;
+    padding: 15px;
+    border-bottom-style: dotted;
+    border-top-style: dashed;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    font-size: 20px;
+
+}
+.selection
+{
+    width: 200px;
+    text-decoration-color: lemonchiffon;
+    height: 30px;
+    font-family: monospace;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: justify-all;
+}
+button
+{
+    padding: 5px;0px;5px;0px;
+    color: black;
+    font-style:italic;
+    font-family: monospace;
+    background-color:gainsboro;
+    font-size: 20px;
+    text-decoration-line: underline;
+    
+}
+
+.inputname:focus
+{
+    border-left: 05px solid red;
+}
